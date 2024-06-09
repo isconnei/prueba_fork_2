@@ -46,16 +46,30 @@ h6 {
   aspect-ratio: 1/1;
 }
 
-@media (min-width: 768px) {
-  .image-container {
-    --img-width: 20rem;
-  }
-}
-
 .hover:hover {
   color: var(--bs-warning);
+  border-color: var(--bs-warning);
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid !important;
 }
 
 .active {
   color: var(--bs-orange) !important;
+}
+
+@media (max-width: 768px) {
+  /* Small screens */
+  .card,
+  .card-img-top {
+    border-radius: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Medium and above screens */
+  .image-container {
+    --img-width: 20rem;
+  }
 }
