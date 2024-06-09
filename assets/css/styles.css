@@ -44,3 +44,7 @@ h6 {
     --img-width: 20rem;
   }
 }
+
+.hover:hover {
+  color: var(--bs-orange);
+}
