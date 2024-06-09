@@ -2,6 +2,13 @@ body {
   font-family: "Ubuntu", Verdana, sans-serif;
 }
 
+main {
+  --navbar-height: 3.75rem;
+  margin-top: var(--navbar-height);
+  height: calc(100vh - var(--navbar-height));
+  overflow-y: scroll;
+}
+
 h1,
 h2,
 h3,
@@ -47,4 +54,8 @@ h6 {
 
 .hover:hover {
   color: var(--bs-orange);
+}
+
+.active {
+  color: var(--bs-warning) !important;
 }
