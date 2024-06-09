@@ -59,11 +59,20 @@ h6 {
   color: var(--bs-orange) !important;
 }
 
+.section-divider {
+  width: 50%;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
   /* Small screens */
   .card,
   .card-img-top {
     border-radius: 0;
+  }
+
+  .section-divider {
+    width: 80%;
   }
 }
 
