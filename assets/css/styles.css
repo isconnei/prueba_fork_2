@@ -53,9 +53,9 @@ h6 {
 }
 
 .hover:hover {
-  color: var(--bs-orange);
+  color: var(--bs-warning);
 }
 
 .active {
-  color: var(--bs-warning) !important;
+  color: var(--bs-orange) !important;
 }
