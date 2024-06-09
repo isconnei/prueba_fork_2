@@ -2,7 +2,9 @@
 
 ## Deploy
 
-Publicado en [github pages](https://albotero.github.io/cv/)
+Publicado en [Github Pages](https://albotero.github.io/cv/)
+
+[![Screenshot del deploy en Github Pages](./assets/img/ghp-deploy.png)](https://albotero.github.io/cv/)
 
 ## Forks
 
