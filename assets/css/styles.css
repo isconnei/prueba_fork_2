@@ -1,0 +1,47 @@
+body {
+  font-family: "Ubuntu", Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", Tahoma, sans-serif;
+}
+
+.screen-h {
+  height: 100vh;
+}
+
+.logo {
+  height: 2rem;
+  filter: drop-shadow(0 0 1rem rgb(100, 100, 100));
+}
+
+.image-container {
+  --img-width: 12rem;
+  border-radius: 0 0 calc(var(--img-width) / 2) calc(var(--img-width) / 2);
+}
+
+.image-container,
+.image-container img {
+  width: var(--img-width);
+  aspect-ratio: 3/4;
+}
+
+.image-container img {
+  filter: drop-shadow(0 0 0.5rem var(--bs-gray-700));
+}
+
+.image-bg {
+  width: var(--img-width);
+  aspect-ratio: 1/1;
+}
+
+@media (min-width: 768px) {
+  .image-container {
+    --img-width: 20rem;
+  }
+}
