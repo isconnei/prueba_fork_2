@@ -37,7 +37,7 @@ divPortafolio.innerHTML = projects
   .map(
     ({ name, desc, image, link }) => `
     <div class="col-12 col-md-5 gy-5 gx-0">
-      <div class="card hover mx-0 bg-secondary gx-0 mx-md-3">
+      <div class="card hover mx-0 bg-body-secondary gx-0 mx-md-3">
         <img src="./assets/img/${image}" alt="${name}" class="card-img-top" /></p>
         <div class="card-body">
           <h4 class="card-title">${name}</h4>

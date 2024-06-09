@@ -81,4 +81,8 @@ h6 {
   .image-container {
     --img-width: 20rem;
   }
+
+  .contact-form {
+    width: 60%;
+  }
 }
